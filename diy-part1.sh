@@ -16,4 +16,4 @@
 # Add a feed source
 echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git easymesh https://github.com/xueyebai/luci-app-easymesh' >>feeds.conf.default
+# echo 'src-git easymesh https://github.com/xueyebai/luci-app-easymesh' >>feeds.conf.default
