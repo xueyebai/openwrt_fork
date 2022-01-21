@@ -15,4 +15,4 @@
 
 # Modify default theme
 #sed -i 's/+luci-theme-bootstrap/+luci-theme-argon/g' feeds/luci/collections/luci/Makefile
-sed -i 's/+luci-theme-bootstrap //g' feeds/luci/collections/luci/Makefile
+sed -i 's/+luci-theme-bootstrap /+luci-theme-infinityfreedom \\\n  +luci-app-ddns +luci-app-openclash +luci-app-passwall +luci-app-smartdns +luci-app-upnp \\\n  +luci-compat +luci-lib-ipkg +wget-nossl +wget-ssl +kmod-tun /g' feeds/luci/collections/luci/Makefile
