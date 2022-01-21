@@ -18,4 +18,4 @@ echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.def
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #echo 'src-git smartdns https://github.com/pymumu/smartdns.git' >>feeds.conf.default
 #echo 'src-git lucismartdns https://github.com/pymumu/luci-app-smartdns.git;lede' >>feeds.conf.default
-#echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
+echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
