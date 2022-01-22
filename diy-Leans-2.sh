@@ -16,3 +16,4 @@
 # Modify default theme
 #sed -i 's/+luci-theme-bootstrap/+luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 sed -i 's/+luci-theme-bootstrap /+luci-theme-argon  \\\n  +luci-app-openclash +luci-app-passwall  \\\n  +wget-nossl /g' feeds/luci/collections/luci/Makefile
+sed -i 's/+luci-app-samba //g' package/lean/autosamba/Makefile
