@@ -1,4 +1,4 @@
-**English** | [中文](https://github.com/xueyebai/openwrt_fork/edit/main/README-ZH.md)
+**English** | [中文](https://github.com/xueyebai/openwrt_fork/main/README-ZH.md)
 
 # Actions-OpenWrt
 
