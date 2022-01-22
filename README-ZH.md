@@ -1,20 +1,20 @@
 [English](https://github.com/xueyebai/openwrt_fork/blob/main/README.md) | **中文**
 
-# Actions-OpenWrt
+# 运行-OpenWrt
 
 [![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
 ![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
 ![GitHub Forks](https://img.shields.io/github/forks/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
 
-A template for building OpenWrt with GitHub Actions
+使用 GitHub Actions 构建 OpenWrt 的模板
 
-## Usage
+## 使用说明
 - 单击使用[此模板](https://github.com/P3TERX/Actions-OpenWrt/generate)按钮创建一个新的存储库。
-- Generate `.config` files using [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) source code. ( You can change it through environment variables in the workflow file. )
-- Push `.config` file to the GitHub repository.
-- Select `Build OpenWrt` on the Actions page.
-- Click the `Run workflow` button.
-- When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
+- .config使用[Lean's OpenWrt](https://github.com/coolsnowwolf/lede)源代码生成文件。（您可以通过工作流文件中的环境变量进行更改。）
+- 将文件推.config送到 GitHub 存储库。
+- Build OpenWrt在“操作”页面上选择。
+- 单击Run workflow按钮。
+- 构建完成后，单击Artifacts Actions 页面右上角的按钮下载二进制文件。
 
 ## Tips
 
