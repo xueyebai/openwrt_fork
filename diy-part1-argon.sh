@@ -19,8 +19,7 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feed
 # echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
 
 #add a theme-argon
-cd openwrt/package/lean  
+cd package/lean  
 rm -rf luci-theme-argon  
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 git clone  https://github.com/jerrykuku/luci-app-argon-config.git
-cd
