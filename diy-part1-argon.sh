@@ -21,5 +21,5 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feed
 #add a theme-argon
 cd package/lean  
 rm -rf luci-theme-argon  
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+git clone -b 18.06 https://github.com/xueyebai/luci-theme-argon.git
 git clone https://github.com/jerrykuku/luci-app-argon-config.git
