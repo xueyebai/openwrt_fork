@@ -20,7 +20,7 @@ echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf
 
 #add a passwall
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
-git clone -b luci https://github.com/xiaorouji/openwrt-passwall2.git package/luci-app-passwall2
+git clone -b main https://github.com/xiaorouji/openwrt-passwall2.git package/luci-app-passwall2
 #add a theme-argon
 cd package/lean
 rm -rf luci-theme-argon
