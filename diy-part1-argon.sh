@@ -18,10 +18,10 @@ echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
 # echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
 
-#add a passwall
+# add a passwall
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
-git clone -b main https://github.com/xiaorouji/openwrt-passwall2.git package/luci-app-passwall2
-#add a theme-argon
+# git clone -b main https://github.com/xiaorouji/openwrt-passwall2.git package/luci-app-passwall2
+# add a theme-argon
 cd package/lean
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/xueyebai/luci-theme-argon.git
